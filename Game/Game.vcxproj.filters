@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{c2a073d5-f28e-4e4e-bce0-c40d1533afb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\坐标模型文件">
+      <UniqueIdentifier>{e9b3cb4d-2504-456e-a4eb-18d9eb9f7b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\游戏对象类">
+      <UniqueIdentifier>{1f297beb-6a71-43d6-9955-7fc9961a15ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\坐标模型文件\源文件">
+      <UniqueIdentifier>{9d07c2ed-6285-4285-afa5-e5b7950bda73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\坐标模型文件\头文件">
+      <UniqueIdentifier>{a5b5d139-3fb2-4ebe-bce8-678c9c798165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\源文件">
+      <UniqueIdentifier>{eea0f929-3be7-4358-84e2-99e712092832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\头文件">
+      <UniqueIdentifier>{a93efe81-ea4c-42db-8769-8182e33d55d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\游戏对象类\源文件">
+      <UniqueIdentifier>{ff776e13-c679-452b-904e-f561e5ae1783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\游戏对象类\头文件">
+      <UniqueIdentifier>{913233b3-0ed7-4725-bed7-f37acf4c64f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Modle.cpp">
+      <Filter>资源文件\坐标模型文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Math\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>资源文件\游戏对象类\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Modle.h">
+      <Filter>资源文件\坐标模型文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect3.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>资源文件\游戏对象类\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

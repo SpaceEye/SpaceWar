@@ -1,0 +1,14 @@
+﻿  Game.cpp
+d:\工程\项目开发\课程设计\game\game\game.cpp(27): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\工程\项目开发\课程设计\game\game\game.cpp(44): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\工程\项目开发\课程设计\game\game\game.cpp(184): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+d:\工程\项目开发\课程设计\game\game\game.cpp(272): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+d:\工程\项目开发\课程设计\game\game\game.cpp(273): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+d:\工程\项目开发\课程设计\game\game\game.cpp(290): warning C4018: “<=”: 有符号/无符号不匹配
+d:\工程\项目开发\课程设计\game\game\game.cpp(292): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码
+  1 of 1054 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Game.vcxproj -> D:\工程\项目开发\课程设计\Game\Release\Game.exe
